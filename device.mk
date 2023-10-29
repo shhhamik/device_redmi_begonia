@@ -293,6 +293,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
     android.frameworks.sensorservice@1.0
 
 PRODUCT_PACKAGES += \
