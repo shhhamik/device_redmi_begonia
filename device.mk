@@ -315,10 +315,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
 
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
-
 # Trust
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
