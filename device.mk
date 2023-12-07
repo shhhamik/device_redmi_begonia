@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service \
     android.hardware.keymaster@4.0.vendor \
     libkeymaster4.vendor:64 \
     libkeymaster4support.vendor:64 \
@@ -152,6 +151,13 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64
+
+PRODUCT_PACKAGES += \
+    libshim_beanpod
+
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.keystore2
 
 # Lights
 PRODUCT_PACKAGES += \
